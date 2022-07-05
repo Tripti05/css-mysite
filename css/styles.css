@@ -1,0 +1,180 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  width: 5%;
+  margin: 80px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+/* ======================== NAVBAR ====================== */
+nav {
+  width: 100vw;
+  height: 9rem;
+  position: fixed;
+  z-index: 2;
+  background-color: #EAF6F6;
+}
+
+nav img {
+  width: 5rem;
+  padding: 2rem;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav__menu a:hover {
+  color: black;
+}
+
+
+/* ========================= About ME =================== */
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 170px;
+}
+
+.top-container img {
+  width: 35rem;
+  padding-top: 5rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/* ========================  My WORK =================== */
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile {
+  padding: 1rem;
+}
+
+.profile img {
+  width: 9rem;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skills-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.design-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.develop-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  padding: 1rem;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background-color: #66BFBF;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+
+}
+
+.btn:hover {
+  background-color: #536DFE;;
+}
+
+/* ==================== FOOTER ================ */
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 60px 0 0;
+  padding: 40px 0;
+  color: #EAF6F6;
+}
+
+.bottom-container a:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
