@@ -47,9 +47,8 @@ li {
   list-style-type: none;
 }
 
-.container {
-  max-width: 1800px;
-  margin: 0 auto;
+.text {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* ======================== NAVBAR ====================== */
@@ -123,6 +122,7 @@ nav img {
   margin: 100px auto;
   width: 50%;
   text-align: left;
+  padding-top: 1rem;
 }
 
 .design-img {
